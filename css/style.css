@@ -51,6 +51,12 @@ a {
   text-decoration: none;
 }
 
+/* Navigation */
+
+.navigation .active a {
+  color: var(--accent-coolor);
+}
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -68,6 +74,7 @@ a {
 .header-link:focus {
   color: var(--accent-coolor);
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
